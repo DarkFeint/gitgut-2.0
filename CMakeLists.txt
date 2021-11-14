@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-set(PROJECT_NAME test)
-
-project("$(PROJECT_NAME)")
+project(test)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -10,4 +8,4 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
-add_executable("$(PROJECT_NAME)" ААААААААА.cpp)
+add_executable(test ААААААААА.cpp)
